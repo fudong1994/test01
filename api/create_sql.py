@@ -1,6 +1,6 @@
 from datetime import datetime
 
-with open(file='sql.text', mode='w', encoding='utf-8') as f:
+with open(file='sql_test.text', mode='w', encoding='utf-8') as f:
     now = datetime.now()
     time = now.strftime('%Y-%m-%d %H:%M:%S')
     # print(time)
