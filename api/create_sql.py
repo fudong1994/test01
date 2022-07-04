@@ -14,4 +14,4 @@ with open(file='sql_test.text', mode='w', encoding='utf-8') as f:
         f.write(sql)
         f.write("\n")
         count += 1
-    print("共创建了{}数据".format(count))
+    print("总共创建了{}数据".format(count))
